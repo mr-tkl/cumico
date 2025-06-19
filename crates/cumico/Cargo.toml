@@ -3,4 +3,12 @@ name = "cumico"
 edition = "2024"
 version.workspace = true
 
+
 [dependencies]
+egui = { workspace = true, features = ["default"] }
+eframe = { workspace = true, features = ["default"] }
+dirs = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+clap = { workspace = true }
+tokio = { workspace = true }
